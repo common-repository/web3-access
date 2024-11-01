@@ -1,0 +1,462 @@
+.metapress-border-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.metapress-verification {
+  display: none;
+}
+
+.metapress-restricted-access,
+.metapress-checkout-access {
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 25px auto;
+}
+
+.metapress-subscription-notice {
+    font-size: 14px;
+    margin: 25px auto;
+}
+
+.metapress-align-content-center {
+  text-align: center;
+}
+
+.metapress-access-buttons {
+  margin: 15px auto;
+  display: none;
+}
+
+.metapress-change-payment-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 0.5fr));
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.metapress-set-payment-method {
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.metapress-set-payment-method.active {
+    opacity: 1;
+}
+
+.metapress-payment-method {
+    display: none;
+}
+
+.metapress-payment-method.active {
+    display: block;
+}
+
+.metapress-payment-button {
+  position:relative;
+  margin: 10px auto;
+  padding: 20px 10px;
+  border-radius: 6px;
+  max-width: 300px;
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  grid-gap: 5px;
+  grid-template-columns: 60px auto;
+}
+
+.metapress-payment-button img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.metapress-payment-button span.metapress-payment-button-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.metapress-verify-nft-owner {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.metapress-verify-nft-owner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.metapress-verify-nft-owner span.nft-name {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#metapress-nft-verification-text {
+    max-width: 450px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.metapress-verify-button span.verify-text {
+    background: #70b513;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    line-height: 1;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.metapress-verify-button span.verify-text:hover {
+    opacity: 0.7;
+}
+
+.metapress-verify-link a.nft-link {
+    display: block;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.metapress-verify-link a.nft-link .dashicons {
+    height: auto;
+    width: auto;
+}
+
+.metapress-payment-button-amount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #70b513;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.metapress-payment-button:hover > .metapress-payment-button-amount {
+    display: grid;
+    align-items: center;
+}
+
+.metapress-access-buttons.show {
+  display: block;
+}
+
+.metapress-notice-box {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+}
+
+.metapress-notice-box p {
+    margin: 0;
+}
+
+.metapress-notice-box span.metapress-remove-transaction,
+.metapress-notice-box span.metapress-confirm-transaction {
+    display: inline-block;
+}
+
+a.metapress-checkout-button {
+  display: block;
+  text-decoration: none;
+  max-width: 300px;
+}
+
+.metapress-notice-box span.metapress-remove-transaction,
+.metapress-notice-box span.metapress-confirm-transaction,
+a.metapress-checkout-button {
+    margin: 10px auto;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.metapress-notice-box span.metapress-remove-transaction {
+    background: #da8731;
+}
+
+.metapress-notice-box span.metapress-confirm-transaction {
+    background: #70b513;
+}
+
+a.metapress-checkout-button {
+    background: #70b513;
+}
+
+.metapress-notice-box span.metapress-remove-transaction:hover,
+.metapress-notice-box span.metapress-confirm-transaction:hover,
+a.metapress-checkout-button:hover {
+    opacity: 0.7;
+}
+
+.metapress-grid {
+  display: grid;
+  align-items: center;
+}
+
+.metapress-payment,
+.metapress-subscription {
+  grid-template-columns: repeat(2, minmax(0, 0.5fr));
+  padding: 10px;
+}
+
+.metapress-setting-title {
+  font-weight: bold;
+  font-size: calc(14px + 0.1vw);
+  font-size: -webkit-calc(14px + 0.1vw);
+  padding: 5px;
+}
+
+.metapress-setting-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+}
+
+.metapress-transaction {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.metapress-transaction.metapress-header {
+  display: none;
+}
+
+.metapress-get-product-content {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.metapress-transaction-content {
+  padding: 20px;
+  display: none;
+}
+
+.metapress-transaction-content.show {
+  display: block;
+}
+
+.metapress-item {
+  padding: 10px;
+}
+
+#metapress-no-payments-found,
+.metapress-no-access-found {
+  padding: 1em;
+}
+
+img.metapress-checkout-image {
+  display: block;
+  margin: 1em auto;
+}
+
+/* ===== NAVIGATION ==== */
+
+.metapress-prev-next-buttons {
+  grid-template-columns: 50% 50%;
+}
+
+.metapress-nav-button.next {
+  text-align: right;
+}
+
+.metapress-nav-button .dashicons {
+  height: auto;
+  width: auto;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.metapress-nav-button .metapress-button {
+  margin: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  background: #70b513;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  display: none;
+}
+
+.metapress-nav-button .metapress-button.show {
+  display: inline-block;
+}
+
+.single-metapress-product {
+  padding: 20px;
+  border-radius: 6px;
+  margin: 25px auto;
+}
+
+.metapress-product-image {
+  margin: 1em auto;
+}
+
+.metapress-product-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+.single-metapress-product .metapress-checkout-button {
+  max-width: 200px;
+}
+
+.metapress-login-notice button.metamask-connect-wallet {
+    margin-top: 15px;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.metapress-admin-view-as-link {
+    margin: 25px auto;
+    text-align: center;
+}
+
+#metapress-connect-change-wallet {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.metapress-change-wallet-button {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.metapress-change-wallet-button .dashicons {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#metapress-wallet-options {
+    border-radius: 6px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+}
+
+#metapress-wallet-options.hidden {
+    display: none;
+}
+
+.metapress-connect-wallet-option {
+  position:relative;
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  grid-gap: 0;
+  grid-template-columns: 100px auto 50px;
+}
+
+.metapress-connect-wallet-option .metapress-wallet-image {
+    padding: 20px;
+}
+
+.metapress-connect-wallet-option .metapress-wallet-image img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.metapress-connect-wallet-option .metapress-wallet-name {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.metapress-connect-wallet-option.connected .metapress-wallet-name {
+    font-weight: bold;
+}
+
+.wallet-connection-status {
+    display: none;
+}
+
+.metapress-connect-wallet-option.connected .wallet-connection-status {
+    display: block;
+}
+
+.wallet-connection-status .dashicons {
+    font-size: 26px;
+    height: auto;
+    width: auto;
+}
+
+.wallet-connection-status .dashicons-yes-alt {
+    color: #70b513;
+}
+
+.metapress-input-update-wrapper {
+    display: grid;
+    grid-template-columns: 150px 50px;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.metapress-delete-subscription,
+.metapress-update-subscription {
+    padding: 5px;
+    cursor: pointer;
+    display: grid;
+    text-align: center;
+}
+
+.metapress-update-subscription {
+    display: none;
+}
+
+.metapress-update-subscription.show {
+    display: grid;
+}
+
+.metapress-delete-subscription:hover > .dashicons {
+    color: red;
+}
+
+@media only screen and (min-width: 680px) {
+  .metapress-setting {
+    grid-template-columns: 25% auto;
+  }
+  .metapress-payment,
+}
+
+@media only screen and (min-width: 1200px) {
+  .metapress-transaction .mobile-only {
+    display: none;
+  }
+  .metapress-transaction.metapress-header {
+    display: block;
+  }
+  .metapress-payment {
+    grid-template-columns: repeat(7, minmax(0, 0.143fr));
+  }
+  .metapress-payment .metapress-setting-content,
+  .metapress-subscription .metapress-setting-content {
+    padding: 0 10px;
+  }
+}

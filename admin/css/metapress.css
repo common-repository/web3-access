@@ -1,0 +1,298 @@
+.metapress-border-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#metapress-no-payments-found {
+  padding: 2em;
+  font-size: calc(18px + 0.1vw);
+  font-size: -webkit-calc(18px + 0.1vw);
+}
+
+.metapress-align-content-center {
+  text-align: center;
+}
+
+.metapress-align-right {
+  text-align: right;
+}
+
+.metapress-width-600 {
+  max-width: 600px;
+}
+
+.metapress-admin-section {
+  padding: 20px 5%;
+}
+
+.metapress-grid {
+  display: grid;
+  align-items: center;
+}
+
+.metapress-setting {
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.metapress-payment,
+.metapress-subscription {
+  grid-template-columns: repeat(2, minmax(0, 0.5fr));
+  padding: 10px;
+}
+
+.metapress-setting-title {
+  font-weight: bold;
+  font-size: calc(14px + 0.1vw);
+  font-size: -webkit-calc(14px + 0.1vw);
+  padding: 5px;
+}
+
+.metapress-setting-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+}
+
+p.metapress-admin-notice,
+p.metapress-filter-notice {
+  font-size: calc(14px + 0.1vw);
+  font-size: -webkit-calc(14px + 0.1vw);
+  font-size: -moz-calc(14px + 0.1vw);
+}
+
+p.metapress-filter-notice {
+  font-weight: bold;
+}
+
+.metapress-wallet-section.hidden {
+  display: none;
+}
+
+.metapress-wallet {
+  margin-bottom: 10px;
+}
+
+.metapress-admin-settings {
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  margin-bottom: 10px;
+}
+
+.metapress-admin-settings.metapress-header {
+  display: none;
+}
+
+/* ===== NAVIGATION ==== */
+
+.metapress-prev-next-buttons {
+  grid-template-columns: 50% 50%;
+}
+
+.metapress-nav-button.next {
+  text-align: right;
+}
+
+.metapress-nav-button .dashicons {
+  height: auto;
+  width: auto;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.metapress-payments-overview {
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.metapress-admin-overview-block {
+    background: #ffffff;
+    margin: 0 auto 20px;
+    padding: 50px 15px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    width: 100%;
+}
+
+label.metapress-overiew-time, label.metapress-retrieving-payment-data, label.metapress-admin-amount-made {
+    display: block;
+    margin: 10px auto;
+}
+
+label.metapress-overiew-time {
+    color: #0073aa;
+    font-size: 18px;
+}
+
+label.metapress-retrieving-payment-data {
+    display: block;
+    margin: 10px auto;
+}
+
+label.metapress-admin-amount-made {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 2em;
+    display: none;
+}
+
+.metapress-filtering-box {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 0.5fr));
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.metapress-filter-option {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.metapress-filter-title {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+ul.metapress-notes {
+    padding: 25px;
+}
+
+ul.metapress-notes li {
+    list-style: disc;
+    font-size: 18px;
+}
+
+.metapress-asset-tooltip {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.metapress-asset-tooltip .dashicons {
+    font-size: 22px;
+}
+
+.metapress-asset-tooltip-content {
+    background: #fafafa;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    min-width: 250px;
+    z-index: 99999;
+    border: 1px solid #cccccc;
+}
+
+.metapress-asset-tooltip:hover > .metapress-asset-tooltip-content {
+    display: block;
+}
+
+.metapress-admin-header {
+    padding: 20px;
+    margin: 0 5% 10px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+    background: #003366;
+}
+
+.metapress-admin-logo img {
+    max-width: 100px;
+}
+
+.metapress-admin-header-text span {
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.metapress-admin-header-text .button {
+    vertical-align: middle;
+}
+
+.metapress-input-update-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    align-items: center;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.metapress-subscription-price {
+    box-shadow: none;
+}
+.metapress-change-subscription-price,
+.metapress-delete-subscription {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.metapress-change-subscription-price:hover > .dashicons {
+    color: #2271b1;
+}
+
+.metapress-delete-subscription:hover > .dashicons {
+    color: red;
+}
+
+@media only screen and (min-width: 680px) {
+  .metapress-setting {
+    grid-template-columns: 25% auto;
+  }
+  .metapress-payment,
+  .metapress-subscription {
+    grid-template-columns: repeat(4, minmax(0, 0.25fr));
+  }
+
+  .metapress-filtering-box {
+    grid-template-columns: 50px 100px 200px 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .metapress-filtering-box {
+    grid-template-columns: 50px 100px 220px 220px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+    .metapress-payments-overview {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 0.3333fr));
+      align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+  .metapress-admin-settings .mobile-only {
+    display: none;
+  }
+  .metapress-admin-settings.metapress-header {
+    display: block;
+  }
+  .metapress-payment {
+    grid-template-columns: repeat(8, minmax(0, 0.125fr));
+  }
+  .metapress-subscription {
+    grid-template-columns: repeat(6, minmax(0, 0.1667fr));
+  }
+  .metapress-payment,
+  .metapress-subscription {
+    text-align: center;
+  }
+  .metapress-payment .metapress-setting-content,
+  .metapress-subscription .metapress-setting-content {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,16 @@
+
+div[data-type="metapress-blocks/restricted-content-block"] {
+  border: 2px solid rgba(0,124,186,0.5);
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+div[data-type="metapress-blocks/restricted-content-block"]:before {
+  content: "Web3 Access Restricted Content";
+  position: absolute;
+  left: 15px;
+  top: -35px;
+  opacity: 0.75;
+}

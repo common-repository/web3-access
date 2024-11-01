@@ -1,0 +1,89 @@
+.metapress-restricted-access,
+.metapress-checkout-access {
+  background: #fafafa;
+  border: 1px solid #eeeeee;
+}
+
+.metapress-payment-button {
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+}
+
+.metapress-change-payment-options {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+.metapress-set-payment-method.wallet-payment {
+    border-right: 1px solid #cccccc;
+}
+
+.metapress-payment-button:hover {
+  box-shadow: 0 1px 2px #cccccc;
+}
+
+.metapress-verify-nft-owner {
+    border: 1px solid #eeeeee;
+    background: #ffffff;
+}
+
+.metapress-verify-link a.nft-link {
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+}
+
+.metapress-payment-button-amount {
+    background: #ffffff;
+}
+
+.metapress-notice-box {
+    background: #f1f1f1;
+    border: 1px solid #eeeeee;
+}
+
+.metapress-transaction {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.metapress-transaction:nth-of-type(2n) {
+  background: #fafafa;
+}
+
+.metapress-item:nth-of-type(2n) {
+  background: rgba(255,255,255,0.1);
+}
+
+.single-metapress-product {
+  background: #fafafa;
+  border: 1px solid #eeeeee;
+}
+
+/* ==== NOTIFICATIONS ==== */
+
+.metapress-update-content {
+    background: #ffffff;
+}
+
+#metapress-ajax-error {
+    color: #de4c3d;
+    background: #ffffff;
+}
+
+#metapress-wallet-options {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.metapress-connect-wallet-option {
+  border-bottom: 1px solid #eeeeee;
+  color: #252525;
+}
+
+.metapress-connect-wallet-option:hover {
+  background: #fafafa;
+}
+
+.metapress-connect-wallet-option:last-child {
+  border-bottom: none;
+}

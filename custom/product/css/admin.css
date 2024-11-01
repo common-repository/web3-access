@@ -1,0 +1,54 @@
+.rogue-meta-box {
+  padding: 10px 15px;
+  font-size: 18px;
+  background: #fafafa;
+  margin-bottom: 10px;
+}
+
+.rogue-meta-box label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rogue-meta-box input {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+}
+
+.rogue-meta-box select {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+}
+
+.metapress-nft-token {
+    border: 1px solid #eeeeee;
+}
+
+.metapress-nft-add-box {
+    margin-bottom: 10px;
+}
+
+.metapress-nft-add-box label {
+     display: inline-block;
+     width: 40%;
+     max-width: 250px;
+}
+
+.metapress-nft-info-box {
+     margin-bottom: 10px;
+}
+
+.metapress-nft-info-box label:first-child {
+     display: inline-block;
+     width: 40%;
+     max-width: 250px;
+}
+
+.metapress-nft-info-box input {
+     max-width: 55%;
+     margin: 0;
+}
